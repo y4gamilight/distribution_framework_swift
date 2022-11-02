@@ -7,7 +7,8 @@ import Foundation
 import Swift
 import _Concurrency
 import _StringProcessing
-@_hasMissingDesignatedInitializers public class CoreBasic {
+public class CoreBasic {
+  public init()
   public func excute()
   @objc deinit
 }

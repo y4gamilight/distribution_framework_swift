@@ -20,6 +20,27 @@
         "printedName": "CoreBasic",
         "children": [
           {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CoreBasic",
+                "printedName": "SampleFramwork.CoreBasic",
+                "usr": "s:14SampleFramwork9CoreBasicC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:14SampleFramwork9CoreBasicCACycfc",
+            "mangledName": "$s14SampleFramwork9CoreBasicCACycfc",
+            "moduleName": "SampleFramwork",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
             "kind": "Function",
             "name": "excute",
             "printedName": "excute()",
@@ -46,8 +67,7 @@
         "moduleName": "SampleFramwork",
         "declAttributes": [
           "AccessControl"
-        ],
-        "hasMissingDesignatedInitializers": true
+        ]
       }
     ],
     "json_format_version": 7
